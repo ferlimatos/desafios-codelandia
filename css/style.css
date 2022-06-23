@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans";
+}
+
+/* Header */
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+}
+
+.header-texto {
+  display: flex;
+  justify-content: space-between;
+  gap: 716px;
+  padding: 40px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #f3f5f7;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #f3f5f7;
+}
+
+/* Postagens */
+
+.postagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f3f5f7;
+}
+
+.postagem {
+  background: #ffffff;
+  width: 900px;
+  margin-top: 50px;
+  padding: 24px;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 5px;
+}
+
+.postagem-info {
+  font-size: 16px;
+  color: #717171;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postagem-titulo {
+  margin-top: 22px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.5px;
+}
+
+.postagem-resumo {
+  color: #717171;
+  font-size: 16px;
+  margin-top: 8px;
+  line-height: 28px;
+}
